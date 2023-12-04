@@ -1,0 +1,2 @@
+# p
+golang print function
