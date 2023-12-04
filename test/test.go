@@ -1,4 +1,4 @@
-package p
+package main
 
 import (
 	"bytes"
@@ -7,7 +7,16 @@ import (
 	"github.com/fatih/color"
 )
 
-func R(v interface{}) {
+func main() {
+	data := map[string]interface{}{
+		"name":  "John Doe",
+		"age":   30,
+		"email": "john.doe@example.com",
+	}
+	r(data)
+}
+
+func r(v interface{}) {
 	b, err := json.Marshal(v)
 	if err != nil {
 		fmt.Println(v)
@@ -29,9 +38,4 @@ func R(v interface{}) {
 func printColored(text string, attributes ...color.Attribute) {
 	c := color.New(attributes...)
 	c.Println(text)
-}
-
-func D(v interface{}) {
-	R(v)
-	panic("")
 }
