@@ -21,7 +21,6 @@ func R(v interface{}) {
 		fmt.Println(err)
 		return
 	}
-
 	printColored(out.String(), color.FgRed, color.BgYellow)
 
 }
