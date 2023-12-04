@@ -1,14 +1,12 @@
 # wang-sitong/p
 
-[中文文档](./README_ZH.md)
-
-### golang More comfortable and beautiful printing data
+### golang 人类可看的打印数据
 
 ```
 go get github.com/wang-sitong/p
 ```
 
-### Examples:
+### 例子:
 ```
 import (
 	"github.com/wang-sitong/p"
