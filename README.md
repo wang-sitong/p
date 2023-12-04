@@ -1,5 +1,5 @@
 # p
-golang print function
+golang More comfortable and beautiful printing data
 ## demo
 ```
 import (
