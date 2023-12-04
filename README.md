@@ -1,4 +1,9 @@
 # golang More comfortable and beautiful printing data
+
+```
+go get github.com/wang-sitong/p
+```
+
 ## demo
 ```
 import (
