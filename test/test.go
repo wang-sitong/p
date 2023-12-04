@@ -9,13 +9,16 @@ import (
 )
 
 func main() {
+
 	data := map[string]interface{}{
 		"name":  "John Doe",
 		"age":   30,
 		"email": "john.doe@example.com",
 	}
 	r(data)
-	os.Exit(1)
+	r(1)
+	d(2)
+	r(3)
 }
 
 func r(v interface{}) {
@@ -40,4 +43,9 @@ func r(v interface{}) {
 func printColored(text string, attributes ...color.Attribute) {
 	c := color.New(attributes...)
 	c.Println(text)
+}
+
+func d(v interface{}) {
+	r(v)
+	os.Exit(1)
 }
