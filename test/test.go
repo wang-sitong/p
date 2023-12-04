@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
+	"os"
 )
 
 func main() {
@@ -14,6 +15,7 @@ func main() {
 		"email": "john.doe@example.com",
 	}
 	r(data)
+	os.Exit(1)
 }
 
 func r(v interface{}) {

@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
+	"os"
 )
 
 func R(v interface{}) {
@@ -32,5 +33,5 @@ func printColored(text string, attributes ...color.Attribute) {
 
 func D(v interface{}) {
 	R(v)
-	panic("")
+	os.Exit(1)
 }
