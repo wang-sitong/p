@@ -1,5 +1,4 @@
-# p
-golang More comfortable and beautiful printing data
+# golang More comfortable and beautiful printing data
 ## demo
 ```
 import (
