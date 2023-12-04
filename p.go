@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func Pr(v interface{}) {
+func R(v interface{}) {
 	b, err := json.Marshal(v)
 	if err != nil {
 		fmt.Println(v)
@@ -22,7 +22,7 @@ func Pr(v interface{}) {
 	fmt.Println(out.String())
 }
 
-func Pd(v interface{}) {
-	Pr(v)
+func D(v interface{}) {
+	R(v)
 	panic("")
 }
