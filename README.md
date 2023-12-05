@@ -2,7 +2,7 @@
 
 [中文文档](./README_ZH.md)
 
-### golang More comfortable and beautiful printing data
+### Golang more comfortable and beautiful printing data
 
 ```
 go get github.com/wang-sitong/p
